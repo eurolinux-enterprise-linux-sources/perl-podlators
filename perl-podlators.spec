@@ -1,6 +1,6 @@
 Name:           perl-podlators
 Version:        2.5.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Format POD source into various output formats
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -62,6 +62,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.5.1-3
+- Mass rebuild 2013-12-27
+
 * Tue Jun 25 2013 Petr Pisar <ppisar@redhat.com> - 2.5.1-2
 - Specify all dependencies
 
